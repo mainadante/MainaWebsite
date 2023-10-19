@@ -237,4 +237,9 @@ h3 {
     body {
         margin: 0;
     }
+    .grid-do {
+        height: 390px;
+        width: 300px;
+        
+    }
 }
