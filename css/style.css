@@ -16,6 +16,7 @@ body {
 .menu {
     padding: 15px;
     text-decoration: none;
+    color: black;
     font-family: 'Alumni Sans', sans-serif;
     font-weight: bold;
     }
