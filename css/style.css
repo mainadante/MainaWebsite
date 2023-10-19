@@ -207,21 +207,20 @@ h3 {
 
 
 @media (max-width: 800px) {
-    .about-pic-box {
-        flex-wrap: wrap-reverse;
-        margin: 20px;
+.about-pic-box {
+    flex-wrap: wrap-reverse;
+    margin: 20px;
     
-          
-    }
+}
 
-       .about-box {
-        padding-right: 0;
+.about-box {
+    padding-right: 0;
         
-    }
+}
     
-    .section2 {
-        padding: 0;
-    }
+.section2 {
+    padding: 0;
+}
 }
 
 
