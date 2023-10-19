@@ -1,0 +1,232 @@
+body {
+    margin: 0 30px;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    
+}
+
+.logo {
+    flex: 3;
+}
+
+.menu {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Alumni Sans', sans-serif;
+    font-weight: bold;
+    }
+
+.section2 {
+    background-color: #F1B4BB;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 110px 0;
+  }
+
+.about-pic-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 950px;
+    margin-right: 20px;
+}
+.about-box {
+    margin: 0 20px;
+    
+}
+
+.img {
+    flex: 1;
+    
+}
+
+
+h1 {
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 4rem;
+    margin: 0;
+    
+}
+
+.about-me {
+    font-size: 25px;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    
+}
+
+
+.grid-do {
+    display: grid;
+    height: 400px;
+    width: 400px;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+    
+}
+
+.grid-do > * {
+    border-radius: 30px;
+   
+}
+h2 {
+    text-align: center;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 2rem;
+    
+}
+
+.Creation {
+    background-color: #F1B4BB;
+    padding: 15px;
+    margin-bottom: 0;
+}
+
+.Impliment {
+    background-color: #1F4172;
+    padding: 15px;
+    margin-bottom: 0;
+}
+
+.Management {
+    background-color: #1F4172;
+    padding: 15px;
+    margin-top: 0;
+}
+
+.Suport {
+    background-color: #F1B4BB;
+    padding: 15px;
+    margin-top: 0;
+    
+}
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.contact-me {
+    width: 90px;
+    border: 0;
+    padding: 5px;
+    background-color: #FDF0F0;
+    border-radius: 10px;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contact-me:hover {
+    background-color: #F1B4BB;
+      
+}
+
+.section5 {
+    background-color: #1F4172;
+    margin-top: 60px;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    justify-content: center;
+    
+}
+
+.icon-footer {
+    color: white;
+    
+}
+
+
+.copyright {
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
+    margin-top: 10px;
+}
+
+p {
+    font-family: 'Alumni Sans', sans-serif;
+    margin-top: 0;
+    
+}
+
+.p-in-touch {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.box-in-touch {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+
+}
+.title {
+    margin: 0;
+    font-size: 40px;
+}
+
+.pink-title {
+    background-color: #F1B4BB;
+    width: 80%;
+    padding: 10px;
+}
+
+h3 {
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 21px;
+}
+
+.text-do {
+    font-weight: lighter;
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+
+@media (max-width: 800px) {
+    .about-pic-box {
+        flex-wrap: wrap-reverse;
+        margin: 20px;
+    
+          
+    }
+
+       .about-box {
+        padding-right: 0;
+        
+    }
+    
+    .section2 {
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 565px) {
+    .menu {
+        display: none;
+    }
+}
