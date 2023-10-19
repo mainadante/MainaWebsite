@@ -209,11 +209,12 @@ h3 {
 @media (max-width: 800px) {
     .about-pic-box {
         flex-wrap: wrap-reverse;
+        margin: 20px;
     
           
     }
 
-    .about-box {
+       .about-box {
         padding-right: 0;
         
     }
