@@ -239,7 +239,10 @@ h3 {
     }
     .grid-do {
         height: 330px;
-        width: 350px;
-        
+        width: 350px; 
+    }
+     .logo {
+        margin-left: 10px;
+
     }
 }
