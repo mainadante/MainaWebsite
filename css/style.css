@@ -78,6 +78,7 @@ h1 {
     grid-template-rows: 1fr 1fr;
     
     
+    
 }
 
 .grid-do > * {
@@ -107,12 +108,14 @@ h2 {
     background-color: #1F4172;
     padding: 15px;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .Suport {
     background-color: #F1B4BB;
     padding: 15px;
     margin-top: 0;
+    margin-bottom: 0
     
 }
 
