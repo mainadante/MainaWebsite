@@ -1,4 +1,5 @@
 body {
+    
     margin: 0 30px;
 }
 
@@ -195,7 +196,7 @@ p {
 
 h3 {
     font-family: 'Alumni Sans', sans-serif;
-    font-size: 21px;
+    font-size: 20px;
 }
 
 .text-do {
@@ -203,6 +204,14 @@ h3 {
     color: white;
     font-size: 15px;
     margin-top: 5px;
+}
+
+.Impliment {
+    color: white;
+}
+
+.Management {
+    color: white;
 }
 
 
@@ -230,19 +239,31 @@ h3 {
         display: none;
     }
 
+   
+}
+
 @media (max-width: 500px) {
     .picture {
         height: 400px;
     }
+
     body {
         margin: 0;
     }
+
     .grid-do {
         height: 330px;
-        width: 350px; 
+        width: 350px;
+        
     }
-     .logo {
+
+    .logo {
         margin-left: 10px;
 
     }
+
+    .social {
+        gap: 20px;
+    }
+   
 }
